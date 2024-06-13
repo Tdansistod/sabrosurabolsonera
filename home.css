@@ -20,6 +20,16 @@ body {
   overflow-x: hidden;
   background-color: var(--color-1);
 }
+.whatsapp {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 40px;
+  background-color: #00e676;
+  padding: 25px;
+  border-radius: 50%;
+  width: 80px;
+}
 .navbar {
   display: flex;
   align-items: center;
