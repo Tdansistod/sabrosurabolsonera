@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth !important;
 }
-@import url("https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap");
 :root {
   --color-main: #9e3e26;
   --color-background: #feefe5;
