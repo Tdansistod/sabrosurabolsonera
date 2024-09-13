@@ -38,103 +38,38 @@
       property="twitter:image"
       content="https://metatags.io/images/meta-tags.png"
     />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
     <a
       class="whatsapp"
       target="_blank"
       href="https://wa.me/+5492944486539?text=Hola,%20quiero%20hacer%20un%20pedido"
-      ><svg
-        viewBox="-1.5 0 259 259"
-        version="1.1"
+    >
+      <svg
+        width="800px"
+        height="800px"
+        viewBox="0 0 24 24"
+        fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        preserveAspectRatio="xMidYMid"
+        class="icon"
       >
-        <g>
-          <path
-            d="M67.6631045,221.823373 L71.8484512,223.916047 C89.2873956,234.379413 108.819013,239.262318 128.350631,239.262318 L128.350631,239.262318 C189.735716,239.262318 239.959876,189.038158 239.959876,127.653073 C239.959876,98.3556467 228.101393,69.7557778 207.17466,48.8290445 C186.247927,27.9023111 158.345616,16.0438289 128.350631,16.0438289 C66.9655467,16.0438289 16.7413867,66.2679889 17.4389445,128.350631 C17.4389445,149.277365 23.7169645,169.50654 34.1803311,186.945485 L36.9705622,191.130831 L25.8096378,232.28674 L67.6631045,221.823373 Z"
-            fill="#00E676"
-          ></path>
-          <path
-            d="M219.033142,37.66812 C195.316178,13.2535978 162.530962,0 129.048189,0 C57.8972956,0 0.697557778,57.8972956 1.39511556,128.350631 C1.39511556,150.67248 7.67313556,172.296771 18.1365022,191.828389 L0,258.096378 L67.6631045,240.657433 C86.4971645,251.1208 107.423898,256.003705 128.350631,256.003705 L128.350631,256.003705 C198.803967,256.003705 256.003705,198.106409 256.003705,127.653073 C256.003705,93.4727423 242.750107,61.3850845 219.033142,37.66812 Z M129.048189,234.379413 L129.048189,234.379413 C110.214129,234.379413 91.380069,229.496509 75.3362401,219.7307 L71.1508934,217.638027 L30.6925422,228.101393 L41.1559089,188.3406 L38.3656778,184.155253 C7.67313556,134.628651 22.3218489,69.05822 72.5460089,38.3656778 C122.770169,7.67313556 187.643042,22.3218489 218.335585,72.5460089 C249.028127,122.770169 234.379413,187.643042 184.155253,218.335585 C168.111425,228.798951 148.579807,234.379413 129.048189,234.379413 Z M190.433273,156.9505 L182.760138,153.462711 C182.760138,153.462711 171.599213,148.579807 164.623636,145.092018 C163.926078,145.092018 163.22852,144.39446 162.530962,144.39446 C160.438289,144.39446 159.043173,145.092018 157.648058,145.789576 L157.648058,145.789576 C157.648058,145.789576 156.9505,146.487133 147.184691,157.648058 C146.487133,159.043173 145.092018,159.740731 143.696902,159.740731 L142.999345,159.740731 C142.301787,159.740731 140.906671,159.043173 140.209113,158.345616 L136.721325,156.9505 L136.721325,156.9505 C129.048189,153.462711 122.072611,149.277365 116.492149,143.696902 C115.097033,142.301787 113.00436,140.906671 111.609245,139.511556 C106.72634,134.628651 101.843436,129.048189 98.3556467,122.770169 L97.658089,121.375053 C96.9605312,120.677496 96.9605312,119.979938 96.2629734,118.584822 C96.2629734,117.189707 96.2629734,115.794591 96.9605312,115.097033 C96.9605312,115.097033 99.7507623,111.609245 101.843436,109.516571 C103.238551,108.121456 103.936109,106.028782 105.331225,104.633667 C106.72634,102.540993 107.423898,99.7507623 106.72634,97.658089 C106.028782,94.1703001 97.658089,75.3362401 95.5654156,71.1508934 C94.1703001,69.05822 92.7751845,68.3606623 90.6825112,67.6631045 L88.5898378,67.6631045 C87.1947223,67.6631045 85.1020489,67.6631045 83.0093756,67.6631045 C81.6142601,67.6631045 80.2191445,68.3606623 78.8240289,68.3606623 L78.1264712,69.05822 C76.7313556,69.7557778 75.3362401,71.1508934 73.9411245,71.8484512 C72.5460089,73.2435667 71.8484512,74.6386823 70.4533356,76.0337978 C65.5704312,82.3118178 62.7802,89.9849534 62.7802,97.658089 L62.7802,97.658089 C62.7802,103.238551 64.1753156,108.819013 66.2679889,113.701918 L66.9655467,115.794591 C73.2435667,129.048189 81.6142601,140.906671 92.7751845,151.370038 L95.5654156,154.160269 C97.658089,156.252942 99.7507623,157.648058 101.145878,159.740731 C115.794591,172.296771 132.535978,181.365022 151.370038,186.247927 C153.462711,186.945485 156.252942,186.945485 158.345616,187.643042 L158.345616,187.643042 C160.438289,187.643042 163.22852,187.643042 165.321193,187.643042 C168.808982,187.643042 172.994329,186.247927 175.78456,184.852811 C177.877233,183.457696 179.272349,183.457696 180.667465,182.06258 L182.06258,180.667465 C183.457696,179.272349 184.852811,178.574791 186.247927,177.179676 C187.643042,175.78456 189.038158,174.389445 189.735716,172.994329 C191.130831,170.204098 191.828389,166.716309 192.525947,163.22852 C192.525947,161.833405 192.525947,159.740731 192.525947,158.345616 C192.525947,158.345616 191.828389,157.648058 190.433273,156.9505 Z"
-            fill="#FFFFFF"
-          ></path>
-        </g>
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M3.50002 12C3.50002 7.30558 7.3056 3.5 12 3.5C16.6944 3.5 20.5 7.30558 20.5 12C20.5 16.6944 16.6944 20.5 12 20.5C10.3278 20.5 8.77127 20.0182 7.45798 19.1861C7.21357 19.0313 6.91408 18.9899 6.63684 19.0726L3.75769 19.9319L4.84173 17.3953C4.96986 17.0955 4.94379 16.7521 4.77187 16.4751C3.9657 15.176 3.50002 13.6439 3.50002 12ZM12 1.5C6.20103 1.5 1.50002 6.20101 1.50002 12C1.50002 13.8381 1.97316 15.5683 2.80465 17.0727L1.08047 21.107C0.928048 21.4637 0.99561 21.8763 1.25382 22.1657C1.51203 22.4552 1.91432 22.5692 2.28599 22.4582L6.78541 21.1155C8.32245 21.9965 10.1037 22.5 12 22.5C17.799 22.5 22.5 17.799 22.5 12C22.5 6.20101 17.799 1.5 12 1.5ZM14.2925 14.1824L12.9783 15.1081C12.3628 14.7575 11.6823 14.2681 10.9997 13.5855C10.2901 12.8759 9.76402 12.1433 9.37612 11.4713L10.2113 10.7624C10.5697 10.4582 10.6678 9.94533 10.447 9.53028L9.38284 7.53028C9.23954 7.26097 8.98116 7.0718 8.68115 7.01654C8.38113 6.96129 8.07231 7.046 7.84247 7.24659L7.52696 7.52195C6.76823 8.18414 6.3195 9.2723 6.69141 10.3741C7.07698 11.5163 7.89983 13.314 9.58552 14.9997C11.3991 16.8133 13.2413 17.5275 14.3186 17.8049C15.1866 18.0283 16.008 17.7288 16.5868 17.2572L17.1783 16.7752C17.4313 16.5691 17.5678 16.2524 17.544 15.9269C17.5201 15.6014 17.3389 15.308 17.0585 15.1409L15.3802 14.1409C15.0412 13.939 14.6152 13.9552 14.2925 14.1824Z"
+          fill="#fff"
+        />
       </svg>
     </a>
-    <div class="navbar">
+    <header class="navbar">
       <h2 class="brand">Sabrosura Bolsonera</h2>
-      <div class="social">
-        <a href="https://www.facebook.com/sabrozura.bolsonera" target="_blank">
-          <svg
-            fill="#ce44e4"
-            version="1.1"
-            id="Capa_1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="800px"
-            height="800px"
-            viewBox="0 0 97.75 97.75"
-            xml:space="preserve"
-          >
-            <g>
-              <path
-                d="M48.875,0C21.882,0,0,21.882,0,48.875S21.882,97.75,48.875,97.75S97.75,75.868,97.75,48.875S75.868,0,48.875,0z
-                M67.521,24.89l-6.76,0.003c-5.301,0-6.326,2.519-6.326,6.215v8.15h12.641L67.07,52.023H54.436v32.758H41.251V52.023H30.229V39.258
-                h11.022v-9.414c0-10.925,6.675-16.875,16.42-16.875l9.851,0.015V24.89L67.521,24.89z"
-              />
-            </g>
-          </svg>
-        </a>
-        <a href="https://www.instagram.com/sabrozura_bolsonera" target="_blank">
-          <svg
-            height="800px"
-            width="800px"
-            version="1.1"
-            id="Layer_1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            viewBox="0 0 512 512"
-            xml:space="preserve"
-          >
-            <circle style="fill: #ce44e4" cx="256" cy="256" r="256" />
-            <path
-              style="fill: #ce44e4"
-              d="M256,0c-11.317,0-22.461,0.744-33.391,2.167C348.216,18.53,445.217,125.933,445.217,256
-       s-97.002,237.47-222.609,253.833C233.539,511.256,244.683,512,256,512c141.385,0,256-114.616,256-256S397.385,0,256,0z"
-            />
-            <g>
-              <path
-                style="fill: #ffffff"
-                d="M350.84,91.826H161.16c-38.231,0-69.334,31.103-69.334,69.334v189.682
-           c0,38.231,31.103,69.334,69.334,69.334h189.682c38.231,0,69.334-31.103,69.334-69.334V161.16
-           C420.174,122.929,389.071,91.826,350.84,91.826z M403.478,350.84c0,29.025-23.613,52.638-52.638,52.638H161.16
-           c-29.025,0-52.638-23.613-52.638-52.638V161.16c0-29.025,23.613-52.638,52.638-52.638h189.682
-           c29.025,0,52.638,23.613,52.638,52.638v189.68H403.478z"
-              />
-              <path
-                style="fill: #ffffff"
-                d="M256,169.739c-47.565,0-86.261,38.696-86.261,86.261s38.696,86.261,86.261,86.261
-           s86.261-38.696,86.261-86.261S303.565,169.739,256,169.739z M256,325.565c-38.358,0-69.565-31.208-69.565-69.565
-           s31.208-69.565,69.565-69.565s69.565,31.208,69.565,69.565S294.358,325.565,256,325.565z"
-              />
-              <circle
-                style="fill: #ffffff"
-                cx="345.043"
-                cy="155.826"
-                r="22.261"
-              />
-            </g>
-          </svg>
-        </a>
-      </div>
-    </div>
+    </header>
     <div class="hero">
       <div class="content">
-        <div class="left">
-          <h1 class="title">Manjares recién horneados 🍪</h1>
-          <p>
+        <div class="text">
+          <h1 class="heroTitle">Manjares recién horneados 🍪</h1>
+          <p class="heroSubtitle">
             Pedidos personalizados y envíos a domicilio para todos tus momentos
             especiales.
           </p>
@@ -144,184 +79,238 @@
             ><button>¡Hacé tu pedido! 🎁</button></a
           >
         </div>
-        <img class="heroImg" src="./img/hero.png" alt="" />
-        <h1 class="titleMobile">Manjares recién horneados 🍪</h1>
+        <img
+          class="heroImg"
+          src="./img/hero.png"
+          alt="confitería en El Bolsón"
+        />
       </div>
-      <a href="#products">
-        <img class="heroArrows" src="./img/flechas.png" alt="" />
+      <a class="heroArrows" href="#menu">
+        <p>Menú</p>
+        <img src="./img/flechas.png" alt="" />
       </a>
     </div>
-    <img src="./img/intersection.png" alt="" class="intersection" />
-    <div class="productsTitle" id="products">
-      <h2>Los más vendidos</h2>
+    <div class="menu" id="menu">
+      <div class="titleRow">
+        <img class="line" src="./img/line.svg" alt="" />
+        <h2>Los más vendidos</h2>
+        <img class="line" src="./img/line.svg" alt="" />
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <div class="imgDiv">
+            <img
+              class="imgHorizontal"
+              src="./img/torta matera.jpeg"
+              alt="torta matera"
+            />
+          </div>
+          <h3 class="product">Torta Matera</h3>
+          <p class="description">
+            Es una torta esponjosa y ligera, aromatizado con limón y vainilla.
+          </p>
+          <p class="price">$3.000</p>
+        </div>
+        <div class="card">
+          <div class="imgDiv">
+            <img class="imgVertical" src="./img/cremona.jpg" alt="cremona" />
+          </div>
+          <h3 class="product">Cremona</h3>
+          <p class="description">
+            Es una deliciosa masa horneada y hojaldrada, crujiente por fuera y
+            suave por dentro.
+          </p>
+          <p class="price">$2.000</p>
+        </div>
+        <div class="card">
+          <div class="imgDiv">
+            <img
+              class="imgVertical"
+              src="./img/pastafrola de membrillo.jpeg"
+              alt="pastafrola de membrillo"
+            />
+          </div>
+          <h3 class="product">Pastafrola</h3>
+          <p class="description">
+            La tarta pastafrola es una base masa quebrada de vainilla, rellena
+            de dulce de membrillo.
+          </p>
+          <p class="price">$4.500</p>
+        </div>
+        <div class="card">
+          <div class="imgDiv">
+            <img class="imgVertical" src="./img/budín.jpg" alt="budín" />
+          </div>
+          <h3 class="product">Budín</h3>
+          <p class="description">
+            Es un postre tradicional que se caracteriza por su textura suave y
+            húmeda.
+          </p>
+          <p class="price">$1.500</p>
+        </div>
+        <div class="card">
+          <div class="imgDiv">
+            <img class="imgVertical" src="./img/donas.jpeg" alt="donas" />
+          </div>
+          <h3 class="product">Donas</h3>
+          <p class="description">
+            Bocado dulce con exterior dorado y crujiente con un interior
+            esponjoso y suave.
+          </p>
+          <p class="price">$1.500 x 6</p>
+        </div>
+        <div class="card">
+          <div class="imgDiv">
+            <img
+              class="imgVertical"
+              src="./img/medialunas.jpg"
+              alt="medialunas"
+            />
+          </div>
+          <h3 class="product">Medialunas</h3>
+          <p class="description">
+            Masa hojaldrada con una capa crujiente y dorada en la parte
+            superior, en el interior conserva una humedad y suavidad
+            irresistible.
+          </p>
+          <p class="price">$2.500 x 6</p>
+        </div>
+        <div class="card">
+          <div class="imgDiv">
+            <img
+              class="imgVertical"
+              src="./img/alfajores de maicena.jpg"
+              alt="alfajores de maicena"
+            />
+          </div>
+          <h3 class="product">Alfajores de maicena</h3>
+          <p class="description">
+            Dos galletas suaves y delicadas hechas de maicena que encierran un
+            generoso relleno de dulce de leche.
+          </p>
+          <p class="price">$4.800 x 12</p>
+        </div>
+        <div class="card">
+          <div class="imgDiv">
+            <img class="imgVertical" src="./img/pizzetas.jpg" alt="pizzetas" />
+          </div>
+          <h3 class="product">Pizzetas</h3>
+          <p class="description">
+            Masa de pan delgada y crujiente, con queso mozzarella gratinado.
+          </p>
+          <p class="price">$1.000 x 12</p>
+        </div>
+      </div>
     </div>
-    <div class="cards">
-      <div class="card">
-        <div class="imgDiv">
-          <img src="./img/torta matera.jpeg" alt="" />
-        </div>
-        <h3>Torta Matera</h3>
-        <p>
-          Es una torta esponjosa y ligera, aromatizado con limón y vainilla.
-        </p>
-        <p class="price">$3.000</p>
-      </div>
-      <div class="card">
-        <div class="imgDiv">
-          <img src="./img/cremona.jpg" alt="" />
-        </div>
-        <h3>Cremona</h3>
-        <p>
-          Es una deliciosa masa horneada y hojaldrada, crujiente por fuera y
-          suave por dentro.
-        </p>
-        <p class="price">$2.000</p>
-      </div>
-      <div class="card">
-        <div class="imgDiv">
-          <img
-            class="imgVert"
-            src="./img/pastafrola de membrillo.jpeg"
-            alt=""
-          />
-        </div>
-        <h3>Pastafrola</h3>
-        <p>
-          La tarta pastafrola es una base masa quebrada de vainilla, rellena de
-          dulce de membrillo.
-        </p>
-        <p class="price">$4.500</p>
-      </div>
-      <div class="card">
-        <div class="imgDiv">
-          <img class="imgVert" src="./img/budín.jpg" alt="" />
-        </div>
-        <h3>Budín</h3>
-        <p>
-          Es un postre tradicional que se caracteriza por su textura suave y
-          húmeda.
-        </p>
-        <p class="price">$1.500</p>
-      </div>
-      <div class="card">
-        <div class="imgDiv">
-          <img src="./img/donas.jpeg" alt="" />
-        </div>
-        <h3>Donas</h3>
-        <p>
-          Bocado dulce con exterior dorado y crujiente con un interior esponjoso
-          y suave.
-        </p>
-        <p class="price">$1.500 x 6</p>
-      </div>
-      <div class="card">
-        <div class="imgDiv">
-          <img class="imgVert" src="./img/medialunas.jpg" alt="" />
-        </div>
-        <h3>Medialunas</h3>
-        <p>
-          Masa hojaldrada con una capa crujiente y dorada en la parte superior,
-          en el interior conserva una humedad y suavidad irresistible.
-        </p>
-        <p class="price">$2.500 x 6</p>
-      </div>
-      <div class="card">
-        <div class="imgDiv">
-          <img class="imgVert" src="./img/alfajores de maicena.jpg" alt="" />
-        </div>
-        <h3>Alfajores de maicena</h3>
-        <p>
-          Dos galletas suaves y delicadas hechas de maicena que encierran un
-          generoso relleno de dulce de leche.
-        </p>
-        <p class="price">$4.800 x 12</p>
-      </div>
-      <div class="card">
-        <div class="imgDiv">
-          <img src="./img/pizzetas.jpg" alt="" />
-        </div>
-        <h3>Pizzetas</h3>
-        <p>Masa de pan delgada y crujiente, con queso mozzarella gratinado.</p>
-        <p class="price">$1.000 x 12</p>
-      </div>
-    </div>
+
     <div class="footer">
-      <div class="footerContent">
-        <h4 class="brand">Sabrosura Bolsonera</h4>
-        <div class="footerSocial">
-          <p>Ubicados en El Bolsón</p>
-          <div class="social">
-            <a
-              href="https://www.facebook.com/sabrozura.bolsonera"
-              target="_blank"
+      <h4 class="brand">Sabrosura Bolsonera</h4>
+      <div class="footerSocial">
+        <p>Ubicados en El Bolsón</p>
+        <div class="social">
+          <a
+            href="https://www.facebook.com/sabrozura.bolsonera"
+            target="_blank"
+          >
+            <svg
+              fill="#ce44e4"
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="800px"
+              height="800px"
+              viewBox="0 0 97.75 97.75"
+              xml:space="preserve"
             >
-              <svg
-                fill="#ce44e4"
-                version="1.1"
-                id="Capa_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                width="800px"
-                height="800px"
-                viewBox="0 0 97.75 97.75"
-                xml:space="preserve"
-              >
-                <g>
-                  <path
-                    d="M48.875,0C21.882,0,0,21.882,0,48.875S21.882,97.75,48.875,97.75S97.75,75.868,97.75,48.875S75.868,0,48.875,0z
+              <g>
+                <path
+                  d="M48.875,0C21.882,0,0,21.882,0,48.875S21.882,97.75,48.875,97.75S97.75,75.868,97.75,48.875S75.868,0,48.875,0z
                     M67.521,24.89l-6.76,0.003c-5.301,0-6.326,2.519-6.326,6.215v8.15h12.641L67.07,52.023H54.436v32.758H41.251V52.023H30.229V39.258
                     h11.022v-9.414c0-10.925,6.675-16.875,16.42-16.875l9.851,0.015V24.89L67.521,24.89z"
-                  />
-                </g>
-              </svg>
-            </a>
-            <a
-              href="https://www.instagram.com/sabrozura_bolsonera"
-              target="_blank"
-            >
-              <svg
-                height="800px"
-                width="800px"
-                version="1.1"
-                id="Layer_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 0 512 512"
-                xml:space="preserve"
-              >
-                <circle style="fill: #ce44e4" cx="256" cy="256" r="256" />
-                <path
-                  style="fill: #ce44e4"
-                  d="M256,0c-11.317,0-22.461,0.744-33.391,2.167C348.216,18.53,445.217,125.933,445.217,256
-           s-97.002,237.47-222.609,253.833C233.539,511.256,244.683,512,256,512c141.385,0,256-114.616,256-256S397.385,0,256,0z"
                 />
-                <g>
-                  <path
-                    style="fill: #ffffff"
-                    d="M350.84,91.826H161.16c-38.231,0-69.334,31.103-69.334,69.334v189.682
-               c0,38.231,31.103,69.334,69.334,69.334h189.682c38.231,0,69.334-31.103,69.334-69.334V161.16
-               C420.174,122.929,389.071,91.826,350.84,91.826z M403.478,350.84c0,29.025-23.613,52.638-52.638,52.638H161.16
-               c-29.025,0-52.638-23.613-52.638-52.638V161.16c0-29.025,23.613-52.638,52.638-52.638h189.682
-               c29.025,0,52.638,23.613,52.638,52.638v189.68H403.478z"
-                  />
-                  <path
-                    style="fill: #ffffff"
-                    d="M256,169.739c-47.565,0-86.261,38.696-86.261,86.261s38.696,86.261,86.261,86.261
-               s86.261-38.696,86.261-86.261S303.565,169.739,256,169.739z M256,325.565c-38.358,0-69.565-31.208-69.565-69.565
-               s31.208-69.565,69.565-69.565s69.565,31.208,69.565,69.565S294.358,325.565,256,325.565z"
-                  />
-                  <circle
-                    style="fill: #ffffff"
-                    cx="345.043"
-                    cy="155.826"
-                    r="22.261"
-                  />
-                </g>
-              </svg>
-            </a>
-          </div>
+              </g>
+            </svg>
+          </a>
+          <a
+            href="https://www.instagram.com/sabrozura_bolsonera"
+            target="_blank"
+          >
+            <svg
+              width="800px"
+              height="800px"
+              viewBox="0 0 24 24"
+              id="meteor-icon-kit__solid-instagram"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M11.9962 0.0078125C8.73824 0.0078125 8.32971 0.021622 7.05019 0.080003C5.77333 0.138241 4.90129 0.341051 4.13824 0.637622C3.34938 0.944146 2.68038 1.35434 2.01343 2.02124C1.34652 2.68819 0.936333 3.35719 0.629809 4.14605C0.333238 4.9091 0.130429 5.78115 0.0721905 7.058C0.0138095 8.33753 0 8.74605 0 12.0041C0 15.262 0.0138095 15.6705 0.0721905 16.9501C0.130429 18.2269 0.333238 19.099 0.629809 19.862C0.936333 20.6509 1.34652 21.3199 2.01343 21.9868C2.68038 22.6537 3.34938 23.0639 4.13824 23.3705C4.90129 23.667 5.77333 23.8698 7.05019 23.9281C8.32971 23.9864 8.73824 24.0002 11.9962 24.0002C15.2542 24.0002 15.6627 23.9864 16.9422 23.9281C18.2191 23.8698 19.0911 23.667 19.8542 23.3705C20.643 23.0639 21.312 22.6537 21.979 21.9868C22.6459 21.3199 23.0561 20.6509 23.3627 19.862C23.6592 19.099 23.862 18.2269 23.9202 16.9501C23.9786 15.6705 23.9924 15.262 23.9924 12.0041C23.9924 8.74605 23.9786 8.33753 23.9202 7.058C23.862 5.78115 23.6592 4.9091 23.3627 4.14605C23.0561 3.35719 22.6459 2.68819 21.979 2.02124C21.312 1.35434 20.643 0.944146 19.8542 0.637622C19.0911 0.341051 18.2191 0.138241 16.9422 0.080003C15.6627 0.021622 15.2542 0.0078125 11.9962 0.0078125ZM7.99748 12.0041C7.99748 14.2125 9.78776 16.0028 11.9962 16.0028C14.2047 16.0028 15.995 14.2125 15.995 12.0041C15.995 9.79557 14.2047 8.00529 11.9962 8.00529C9.78776 8.00529 7.99748 9.79557 7.99748 12.0041ZM5.836 12.0041C5.836 8.60181 8.594 5.84381 11.9962 5.84381C15.3984 5.84381 18.1564 8.60181 18.1564 12.0041C18.1564 15.4062 15.3984 18.1642 11.9962 18.1642C8.594 18.1642 5.836 15.4062 5.836 12.0041ZM18.3998 7.03996C19.1949 7.03996 19.8394 6.39548 19.8394 5.60043C19.8394 4.80538 19.1949 4.16086 18.3998 4.16086C17.6048 4.16086 16.9603 4.80538 16.9603 5.60043C16.9603 6.39548 17.6048 7.03996 18.3998 7.03996Z"
+                fill="#ffffff"
+              />
+            </svg>
+          </a>
         </div>
       </div>
+      <img src="./img/wave.png" alt="" class="wave" />
     </div>
+    <script type="text/javascript">
+      const deserializeRow = (row, delimiter = ",") => {
+        const values = [];
+        let index = 0,
+          matchStart = 0,
+          isInsideQuotations = false;
+        while (true) {
+          if (index === row.length) {
+            values.push(row.slice(matchStart, index));
+            break;
+          }
+          const char = row[index];
+          if (char === delimiter && !isInsideQuotations) {
+            values.push(
+              row
+                .slice(matchStart, index)
+                .replace(/^"|"$/g, "")
+                .replace(/""/g, '"')
+                .replace(/\\n/g, "\n")
+            );
+            matchStart = index + 1;
+          }
+          if (char === '"')
+            if (row[index + 1] === '"') index += 1;
+            else isInsideQuotations = !isInsideQuotations;
+          index += 1;
+        }
+        return values;
+      };
+      const CSVToArray = (data, delimiter = ",", omitHeader = false) => {
+        const rows = data.split("\n");
+        if (omitHeader) rows.shift();
+        return rows.map((row) => deserializeRow(row, delimiter));
+      };
+      async function getData() {
+        try {
+          const response = await axios.get(
+            "https://docs.google.com/spreadsheets/d/e/2PACX-1vSVX0a0FNpvcmEgUDiEJGN4fABiB3tuFhQOdesUkAvFEZ1SwTK76i-G-TVTNwM7sRPd3WNSaij4tN1N/pub?gid=0&single=true&output=csv"
+          );
+          const parsedData = CSVToArray(response?.data);
+
+          let products = Array.prototype.slice.call(
+            document.getElementsByClassName("product")
+          );
+          products.map((e, index) => (e.innerHTML = parsedData[index][0]));
+          let prices = Array.prototype.slice.call(
+            document.getElementsByClassName("price")
+          );
+          prices.map((e, index) => (e.innerHTML = parsedData[index][1]));
+        } catch (error) {
+          console.error(error);
+        }
+      }
+      getData();
+    </script>
   </body>
 </html>
