@@ -267,7 +267,6 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   width: 300px;
-  min-height: 10rem;
   font-size: var(--font-small);
   z-index: 1;
 }
@@ -337,6 +336,5 @@ button:hover {
   }
   .footerSocial {
     flex-direction: column;
-    padding: 1rem 0;
   }
 }
